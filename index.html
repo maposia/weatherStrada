@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Weather Strada</title>
+  </head>
+  <body>
+    <div class="weather">
+      <div class="weather__app">
+        <div class="weather__search">
+          <input type="text" value="Aktobe" class="weather__input" />
+          <img src="/img/search-icon.svg" alt="" class="weather__search-icon" />
+        </div>
+        <div class="weather__wrapper">
+          <div class="weather__display">
+            <div class="weather__dicide">
+            <div class="weather__info show" data-box="1">
+              <h3 class="weather__temp-now">14&#176;</h3>
+              <img src="/img/cloud-now.png" alt="" class="weather__cloud-now" />
+              <div class="weather__display-wrapper">
+                <div class="weather__city">
+                  <p class="weather__city-text">Aktobe</p>
+                </div>
+                <div class="weather__like">
+                  <img src="/img/like.svg" alt="" class="weather__like-icon" />
+                </div>
+              </div>
+            </div>
+            <div class="weather__info weather__details " data-box="2">
+                <p class="weather__city-text weather__city-details">Aktobe</p>
+                <ul class="weather__list-details">
+                    <li class="weather__item-details">Temperature: 14</li>
+                    <li class="weather__item-details">Feels like: 10</li>
+                    <li class="weather__item-details">Weather: Clouds</li>
+                    <li class="weather__item-details">Sunrise: 03:21</li>
+                    <li class="weather__item-details">Sunset: 18:54</li>
+                </ul>
+            </div>
+
+            <div class="weather__info " data-box="3">
+                <p class="weather__city-text weather__city-details weather__city-forecast">Aktobe</p>
+                <div class="weather__blocks">
+                    <div class="weather__block">
+                        <div class="weather__block-wrapper">
+                            <div class="weather__left-side">
+                                <p class="weather__date">
+                                    17 May  
+                                </p>
+                                <p class="weather__tempetarute">Temperature: 13 </p>
+                                <p class="weather__feel">Feels like: 10</p>
+                            </div>
+                            <div class="weather__right-side">
+                                <div class="weather__time">
+                                    12:00  
+                                </div>
+                                <div class="weather__types">
+                                    <p class="weather__type">Rain</p>
+                                    <img src="/img/rain.svg" alt="" class="weather__type-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather__block">
+                        <div class="weather__block-wrapper">
+                            <div class="weather__left-side">
+                                <p class="weather__date">
+                                    17 May  
+                                </p>
+                                <p class="weather__tempetarute">Temperature: 13 </p>
+                                <p class="weather__feel">Feels like: 10</p>
+                            </div>
+                            <div class="weather__right-side">
+                                <div class="weather__time">
+                                    12:00  
+                                </div>
+                                <div class="weather__types">
+                                    <p class="weather__type">Rain</p>
+                                    <img src="/img/rain.svg" alt="" class="weather__type-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather__block">
+                        <div class="weather__block-wrapper">
+                            <div class="weather__left-side">
+                                <p class="weather__date">
+                                    17 May  
+                                </p>
+                                <p class="weather__tempetarute">Temperature: 13 </p>
+                                <p class="weather__feel">Feels like: 10</p>
+                            </div>
+                            <div class="weather__right-side">
+                                <div class="weather__time">
+                                    12:00  
+                                </div>
+                                <div class="weather__types">
+                                    <p class="weather__type">Rain</p>
+                                    <img src="/img/rain.svg" alt="" class="weather__type-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+          </div>
+          <div class="weather__tabs">
+            <div class="weather__tab">
+              <a href="" data-box="1" class="weather__link active">now</a>
+            </div>
+            <div class="weather__tab">
+              <a href="" data-box="2" class="weather__link">details</a>
+            </div>
+            <div class="weather__tab">
+              <a href="" data-box="3" class="weather__link">forecast</a>
+            </div>
+          </div>
+        </div>
+          <div class="weather__locations">
+            <div class="weather__added-location">
+              <h3 class="weather__locations-header">Added Locations:</h3>
+            </div>
+            <ul class="weather__list">
+              <li class="weather__item">
+                <a href="#" class="weather__item-link">Amur</a>
+              </li>
+              <li class="weather__item">
+                <a href="#" class="weather__item-link">Samara</a>
+              </li>
+              <li class="weather__item">
+                <a href="#" class="weather__item-link">Bali</a>
+              </li>
+              <li class="weather__item">
+                <a href="#" class="weather__item-link">Dane</a>
+              </li>
+              <li class="weather__item">
+                <a href="#" class="weather__item-link">Kilo</a>
+              </li>
+              <li class="weather__item">
+                <a href="#" class="weather__item-link">Nur-Sultan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
